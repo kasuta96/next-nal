@@ -20,7 +20,6 @@ export default function Add() {
           "translation":trans,
         }),
       })
-      setSubmitting(false)
       const json = await res.json()
       if (!res.ok) console.log('Error:', res)
       console.log('Status:', json.status);
@@ -30,6 +29,7 @@ export default function Add() {
     } catch (e) {
       console.log(e.message)
     }
+    setSubmitting(false)
   }
 
   return (
