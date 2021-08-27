@@ -2,6 +2,8 @@
 
 Install [Node.js](https://nodejs.org/)
 
+run Laravel serve
+
 then...
 
 ```bash
